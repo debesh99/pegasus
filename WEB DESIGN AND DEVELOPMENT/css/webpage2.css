@@ -1,0 +1,112 @@
+body{
+      background-image: url(back.png);
+
+}
+
+
+
+nav{
+      word-spacing: 29px;
+      text-align: center;
+      padding: 26px;
+      background-color: #3e475a;
+    }
+
+#home{
+      position: absolute;
+      top: 266px;
+      left: 240px;
+      background-image: url(paper.jpg);
+      padding: 70px;
+    padding-left: 159px;
+    border-radius: 90px;
+}
+      .hello{
+        display: inline-block;
+        position: relative;
+        right: 142px;
+        color: wheat;
+    }
+      .well{
+        display: inline-block;
+        color: wheat;
+
+
+
+      }
+
+
+      .college{
+  padding: 4px;
+      background-color: #f58764;
+      border-radius: 20px;
+
+    }
+    button{
+      position: absolute;
+top: 58px;
+left: 368px;
+padding: 6px;
+border-radius: 7px;
+background: deepskyblue;
+cursor: grab;
+
+
+
+
+
+    }
+      .subject{
+      padding: 4px;
+      background-color: #f58764;
+      border-radius: 20px;
+
+}
+
+#about{
+        position: absolute;
+        top: 632px;
+        left:218px;
+
+
+
+}
+
+
+
+          .me{
+      text-align: center;padding: 34px;
+    background-color: #001628;
+      border-radius: 20px;
+      color:wheat;
+      font-size: 18px;
+          }
+          .aboutme{
+      text-align: center;
+        color:wheat;
+
+          }
+#contact{
+          position:absolute;
+          top:1069px;
+          left: 244px;
+          background-image: url(koo.jpg);
+          padding: 91px;
+          padding-left: 172px;
+
+}
+      .hurray{
+      display: inline-block;
+
+    position: relative;
+    right: 86px;
+    line-height: 69px;
+    text-align: right;
+
+
+              }
+              .info{
+      display: inline-block;
+      color:wheat;
+
+                }

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <title>final</title>
+        <link rel="stylesheet" href="webpage2.css">
+</head>
+
+<body>
+<nav>
+    <a href="#home" style="background-color: #7c4ff5;
+      padding: 6px;
+      border-radius: 20px;">Home</a>
+     <a href="#about" style="background-color: #7c4ff5;
+      padding: 6px;
+      border-radius: 20px;">AboutMe</a>
+    <a href="#contact" style="background-color: #7c4ff5;
+      padding: 6px;
+      border-radius: 20px;">ContactMe</a>
+
+</nav>
+<div id="home">
+  <diV class=hello>
+  <label for="college">Choose the college :</label>
+  <select class="college">
+  <option>None</option>
+  <option>CV.raman global university</option>
+  </select>
+  <button type="button" name="button">Submit</button>
+  </div>
+
+  <div class="well">
+  <label for="subjects">Choose the subject :</label>
+  <select class="subject">
+  <option>None</option>
+  <option>Maths</option>
+  <option>Engineering physics</option>
+  <option>Chemistry</option>
+  <option>Engish</option>
+  </select>
+  </div>
+</div>
+<article id="about">
+          <h1 class="aboutme">ABOUT ME</h1>
+          <p class="me">The source order of the wouldn’t matter much here, since semantically they are tied together with the for attribute.<br>But if we put the input first, that means we can leverage its :focus state and an adjacent sibling combinator (+)<br> to affect the label when it is focused. Similar in concept to the checkbox hack.</p>
+
+</article>
+<footer id="contact">
+      <div class="hurray">
+            <h1 class="contact">Contact Me</h1>
+      <div class="na">
+  <label for="Name :">Name :</label>
+    <input id="name" placeholder="who are you ?" type="text" required>
+      </div>
+      <div class="ph">
+  <label for="Phone:">Phone:</label>
+  <input id="phone" placeholder="Phone Number" type="text" required>
+      </div>
+      <div class="re">
+  <label for="Review:">Review:</label>
+  <input id="message" placeholder="Please give your review" type="text" required>
+      </div>
+
+
+      </div>
+
+
+      <div class="info">
+            <h2>INFO</h2>
+            <h4>personal address:-</h4>
+            <p>Pegasus Education pvt ltd <br>
+            C.V Raman Global university<br>
+            Mahura, Bhubaneswar<br>
+            pin: 752054<br>
+  (This Website is wholly maintained by students)</p>
+
+
+      </div>
+
+
+</footer>
+
+</div>
+
+</body>
+</html>
